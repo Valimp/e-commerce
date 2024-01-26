@@ -11,7 +11,7 @@ body {
     @apply text-3xl text-egg-white font-bold;
   }
   a {
-    @apply text-egg-white duration-200 ease-in-out uppercase;
+    @apply text-sm text-egg-white duration-200 ease-in-out uppercase;
   }
   a:hover {
     @apply text-sun-orange;
