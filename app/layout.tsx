@@ -6,8 +6,8 @@ import Nav from "./components/Nav";
 const righteous = Righteous({ weight: "400", subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "E-commerce",
-  description: "E-commerce SaaS built with Next.js and Tailwind CSS",
+  title: "valimp - Votre site e-commerce sur mesure",
+  description: "valimp - Votre site e-commerce eco-responsable sur mesure",
 };
 
 export default function RootLayout({
