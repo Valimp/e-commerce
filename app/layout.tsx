@@ -16,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="fr">
+    <html className="scroll-smooth" lang="fr">
       <body className={righteous.className}>
         <Nav />
         <div>

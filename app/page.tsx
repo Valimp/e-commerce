@@ -2,10 +2,12 @@ import Link from "next/link";
 import { FaPhoneAlt } from "react-icons/fa";
 import GlassCard from "./components/GlassCard";
 import Separator from "./components/Separator";
+import UpButton from "./components/UpButton";
 
 export default function Home() {
   return (
     <>
+      <UpButton />
       <main className="h-[42rem] flex justify-center items-center">
         <div className="flex flex-col justify-center items-center gap-4 sm:gap-10 mx-2">
           <h1 className="relative text-6xl sm:text-8xl text-deep-green">valimp</h1>
