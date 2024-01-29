@@ -14,6 +14,9 @@ const config: Config = {
         'deep-green': '#00373D',
         'sun-orange': '#F07605',
       },
+      backgroundImage: {
+        'homepage-background': "url('/images/homepage_background.jpg')"
+      },
     },
   },
   plugins: [],

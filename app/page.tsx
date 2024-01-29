@@ -1,10 +1,12 @@
 import Link from "next/link";
 import { FaPhoneAlt } from "react-icons/fa";
+import GlassCard from "./components/GlassCard";
+import Separator from "./components/Separator";
 
 export default function Home() {
   return (
     <>
-      <main className="h-[45rem] flex justify-center items-center">
+      <main className="h-[42rem] flex justify-center items-center">
         <div className="flex flex-col justify-center items-center gap-4 sm:gap-10 mx-2">
           <h1 className="relative text-6xl sm:text-8xl text-deep-green">valimp</h1>
           <p className="text-2xl sm:text-4xl text-deep-green text-center">
@@ -20,7 +22,18 @@ export default function Home() {
           </Link>
         </div>
       </main>
-      
+      <div className="h-[42rem] bg-homepage-background bg-cover bg-center flex justify-center items-center">
+        <GlassCard>
+          <h2 className="text-2xl sm:text-4xl text-egg-white mb-10">Parce que c'est possible</h2>
+          <p className="text-lg sm:text-2xl text-egg-white leading-7">
+            Boostez votre activité avec des ordinateurs sur mesure éco-responsables.
+          </p>
+          <Separator />
+          <p className="text-lg sm:text-2xl text-egg-white leading-7">
+            Démarquez-vous en ligne avec un site qui respecte vos valeurs.
+          </p>
+        </GlassCard>
+      </div>
     </>
   );
 }
