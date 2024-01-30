@@ -16,7 +16,7 @@ export default function Home() {
               <span className="before:-z-10 before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-sun-orange relative inline-block">
                 <span className="relative px-2"> eco-responsable </span>
               </span> 
-            respectueux de l'environnement.
+            respectueux de vos valeurs.
           </p>
           <Link className="flex items-center shadow text-deep-green border hover:border-sun-orange rounded-xl px-3 py-2 border-deep-green text-lg sm:text-xl" href="/Contact">
             <FaPhoneAlt className="inline-block mr-4 animate-bounce" />
