@@ -1,8 +1,12 @@
 import React from 'react'
 
-const Separator = () => {
+const Separator = (props: any) => {
   return (
-    <div className='h-[1px] w-4/5 bg-egg-white my-10 m-auto'></div>
+    <div 
+    className={`h-[1px] w-4/5 bg-egg-white m-auto`}
+    style={{marginTop: props.horizontal, marginBottom: props.horizontal}}
+    >
+    </div>
   )
 }
 
