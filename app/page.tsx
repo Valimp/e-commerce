@@ -30,7 +30,7 @@ export default function Home() {
           <p className="text-lg sm:text-2xl text-egg-white leading-7">
             Boostez votre activité avec des ordinateurs sur mesure éco-responsables.
           </p>
-          <Separator />
+          <Separator horizontal="40px" />
           <p className="text-lg sm:text-2xl text-egg-white leading-7">
             Démarquez-vous en ligne avec un site qui respecte vos valeurs.
           </p>

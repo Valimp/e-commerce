@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Righteous } from "next/font/google";
 import "./globals.css";
 import Nav from "./components/Nav";
+import Footer from "./components/Footer";
 
 const righteous = Righteous({ weight: "400", subsets: ["latin"] });
 
@@ -22,6 +23,7 @@ export default function RootLayout({
         <div>
           {children}
         </div>
+        <Footer />
       </body>
     </html>
   );
