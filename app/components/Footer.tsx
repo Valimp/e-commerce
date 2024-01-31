@@ -2,6 +2,9 @@ import Link from 'next/link'
 import React from 'react'
 import Separator from './Separator'
 import BadgeLink from './BadgeLink'
+import { BsLinkedin } from "react-icons/bs";
+import { BsInstagram } from "react-icons/bs";
+import { BsThreads } from "react-icons/bs";
 
 const Footer = () => {
   return (
@@ -23,7 +26,17 @@ const Footer = () => {
         <div>
             <h3 className='text-egg-white text-lg'>Suivez-nous</h3>
             <Separator horizontal="15px" />
-            <BadgeLink />
+            <div className='flex gap-4'>
+                <BadgeLink url="https://www.linkedin.com/in/valimp/" >
+                    <BsLinkedin className='text-grass-green text-2xl' />
+                </BadgeLink>
+                <BadgeLink url="/" >
+                    <BsInstagram className='text-grass-green text-2xl' />
+                </BadgeLink>
+                <BadgeLink url="/" >
+                    <BsThreads className='text-grass-green text-2xl' />
+                </BadgeLink>
+            </div>
             
         </div>
     </div>
