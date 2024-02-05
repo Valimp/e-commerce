@@ -8,7 +8,7 @@ import { BsThreads } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <div className='h-auto bg-deep-green flex items-start px-10 py-6 gap-24'>
+    <div className=' h-auto bg-deep-green flex flex-col md:flex-row items-start px-10 py-6 gap-24'>
         <nav className='flex flex-col'>
             <h3 className='text-egg-white text-lg'>Navigation</h3>
             <Separator horizontal="15px" />
