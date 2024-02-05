@@ -34,7 +34,7 @@ const UpButton = () => {
         <button 
             onClick={handleUpButton} 
             style={{right: calculatePosition(), bottom: "20px"}}
-            className={`w-10 h-10 bg-sun-orange rounded-full fixed flex justify-center items-center transform transition-transform duration-500 animate-bounce`}>
+            className={`w-10 h-10 bg-sun-orange z-50 rounded-full fixed flex justify-center items-center transform transition-transform duration-500 animate-bounce`}>
             <IoIosArrowUp className='w-5 h-5 text-egg-white'/>
         </button>
   )
